@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    
+   
+   
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+  h3{
+    font-size: 80px;
+    padding-top: 60px;
+  }
+
+ 
+
+  .navbar-fixed img {
+      padding-top: 6px;
+      padding-left: 10px;
+      padding-bottom: 5px;
+
+}
+
+.avatar {
+    padding-top: 30px;
+}
+
+
+.video-container {
+  padding-left:30px ;
+  width: 700px;
+  height: 30px;
+  
+}
+
+h2 {
+
+}
+
+
+
+
