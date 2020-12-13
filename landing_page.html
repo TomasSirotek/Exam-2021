@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/masonry-layout@4.2.2/dist/masonry.pkgd.min.js">
+    <link rel="stylesheet" href="scss/style.css">
+    <title>Seware Foundation </title>
+  
+  </head>
+</head>
+<body>
+      <!--nav bar with logo -->
+    <div class="navbar-fixed ">
+    <nav class="nav-wrapper white">
+        <div class="container">
+            <a href="landing_page.html" class="brand-logo left ">
+              <img src="img/roud.png" height="60px" wid alt="">
+            </a>
+            
+            <!--responsible for toggling menu-->
+            <a href="#" class="sidenav-trigger right" data-target='mobile-links'>
+                <i class=" material-icons black-text ">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#" class="dropdown-button black-text" data-target="dropdown1" >Pages<i class="material-icons right arrow">arrow_drop_down</i></a></li>
+                <li><a class="black-text" href="index.html">About us</a></li>
+                <li><a class="black-text" href="support.html">Support</a></li>
+            </ul>
+        </div>
+    </nav>
+  </div>
+<!--mobile menu-->
+    <ul class="sidenav " id="mobile-links">
+                <li><a href="podcast.html">Podcast</a></li>
+                <li><a href="landing_page.html">Articles</a></li>
+                <li><a href="index.html">About us</a></li>
+                <li><a href="support.html">Support</a></li>
+    </ul>
+
+<!--dropdown-->
+<ul id="dropdown1" class="dropdown-content ">
+  <li><a class="black-text" href="podcast.html">Podcast</a></li>
+  <li class="divider"></li>
+  <li><a class="black-text" href="#">Articles</a></li>
+</ul>
+
+
+    
+
+    <div class="slider">
+      <ul class="slides">
+        <li>
+          <img  src="img/ship.jpg"> <!-- random image -->
+            <div class="caption center-align black-text ">
+              <h3 class="headline">Seaware Foundation</h3> <!--repair if text wanted-->
+             
+            </div>
+        </li>
+
+        <li>
+          <img src="img/slider1.jpg"> <!-- random image -->
+            <div class="caption center-align white-text">
+              <h3 class="headline">Seaware Foundation</h3> <!--repair if text wanted-->
+            <div class="waves-effect waves-light btn-large pulse" > Read more!
+            </div>
+            
+            
+            
+          </div>
+        </li>
+
+        <li>
+          <img src="img/baltic.jpg"> <!-- random image -->
+            <div class="caption center-align white-text">
+              <h3 class="headline">Seaware Foundation</h3> <!--repair if text wanted-->
+            <div class="waves-effect waves-light btn-large " > Read more!
+            </div>
+            
+            
+            
+          </div>
+        </li>
+        
+      </ul>
+
+   
+    </div>
+
+
+    
+    <!--video edit-->
+    <div class="video-container" style="width: 70%; margin: 90px auto;">
+      <iframe src="https://www.youtube.com/embed/OP0U62oiBlM" frameborder="0" allowfullscreen></iframe>
+     
+    </div>
+
+    <p class="center after-video">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad, ratione quam? Omnis ullam sequi incidunt inventore voluptatem, molestias iure. Obcaecati unde aliquam animi non rerum harum perferendis nisi, iusto sint?</p>
+    
+    <br><br>
+
+    
+    
+    <!-- how it works -->
+    <h1>How the process works</h1>
+<br> 
+<div class="process-wrapper">
+<div id="progress-bar-container">
+	<ul>
+		<li class="step step01 active"><div class="step-inner">STEP 1</div></li>
+		<li class="step step02"><div class="step-inner">STEP 2</div></li>
+		<li class="step step03"><div class="step-inner">STEP 3</div></li>
+		<li class="step step04"><div class="step-inner">STEP 4</div></li>
+		
+	
+	</ul>
+	
+	<div id="line">
+		<div id="line-progress"></div>
+	</div>
+</div>
+
+<div id="progress-content-section">
+	<div class="section-content discovery active">
+		<h2 class="white-text">The Beggining</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+	</div>
+	
+	<div class="section-content strategy">
+		<h2 class="white-text">What is goin on </h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+	</div>
+	
+	<div class="section-content creative">
+		<h2>You can make changes</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+	</div>
+	
+	<div class="section-content production">
+		<h2>Behave</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+	</div>
+	
+	<div class="section-content analysis">
+		<h2>You made people happy</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+	</div>
+	</div>
+</div>
+
+
+
+
+   
+    
+    <br><br>
+
+    
+          
+    
+    
+
+
+
+
+
+    
+<!--our stories-->
+<h1 class="center stories">Explore the stories</h1>
+<div class="row" style="width: 90%; margin: auto;">
+<!--card1-->
+  <div class="col l4 m12 s12">
+    <div class="card">
+      <div class="card-image hoverable" >
+        <img src="img/slider1.jpg">
+        
+      </div>
+      <div class="card-content center-align">
+        <span class="card-title">Stuttgard</span>
+        <p>I am a very simple card. I am good at containing small bits of information.
+        I am convenient because I require little markup to use effectively.</p>
+        
+      </div>
+      <div class="card-action ">
+        <a href="#">Discover more </a>
+      </div>
+    </div>
+  </div>
+<!--card2-->
+
+  <div class="col l4 m12 s12">
+    <div class="card">
+      <div class="card-image hoverable">
+        <img src="img/baltic.jpg">
+        
+      </div>
+      <div class="card-content center-align">
+        <span class="card-title">Titanic</span>
+        <p>I am a very simple card. I am good at containing small bits of information.
+        I am convenient because I require little markup to use effectively.</p>
+      </div>
+      <div class="card-action ">
+        <a href="#">Discover more </a>
+      </div>
+    </div>
+  </div>
+
+<!--card3-->
+  <div class="col l4 m12 s12">
+    <div class="card">
+      <div class="card-image hoverable">
+        <img src="img/slider1.jpg">
+        
+      </div>
+      <div class="card-content center-align">
+        <span class="card-title">SS Marine</span>
+        <p>I am a very simple card. I am good at containing small bits of information.
+        I am convenient because I require little markup to use effectively.</p>
+      </div>
+      <div class="card-action blue-text ">
+        <a href="index.html">Discover more </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<br><br>
+
+
+
+
+
+
+<!--testimonials-->
+<div id="testimonials-section" class="text-center">
+  <div class="container">
+    <div class="section-title">
+      <h2 class="center-align"> What they said <strong>about us</strong> </h2>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <div id="testimonial" class="owl-carousel owl-theme">
+          <div class="item">
+            <p>Curabitur malesuada lacus at purus pharetra, vitae egestas augue blandit. Duis feugiat vestibulum turpis, malesuada volutpat augue aliquet at. Vivamus egestas urna id eros tincidunt, in dictum enim tincidunt. Suspendisse vel pellentesque velit, non pretium erat. Ut commodo, arcu ac luctus pretium, ante est hendrerit risus, non efficitur odio nisl ac diam. Quisque vestibulum arcu tortor. Nam suscipit nisl laoreet purus facilisis, vel tempus lacus pellentesque.</p>
+            <p><strong>Robert Dolzal</strong>, Executive manager
+, FindFish.com</p>
+          </div>
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!--gallery of ships-->
+
+<div class="container">
+  <div class="row">
+    <h1 class="center gallery-text">Gallery of the sanken ships</h1>
+    
+  <div class="col l12 s12 m12"><img src="img/baltic.jpg" alt="" class="materialboxed responsive-img"></div>  
+  <div class="col s3 m3"><img src="https://source.unsplash.com/800x600/?sand" alt="" class="materialboxed responsive-img first hide-on-med-and-down" ></div>
+  <div class="col s3 m3"><img src="https://source.unsplash.com/800x600/?boat" alt="" class="materialboxed responsive-img first hide-on-med-and-down"></div>
+  <div class="col s3 m3"><img src="https://source.unsplash.com/800x600/?cruise" alt="" class="materialboxed responsive-img first hide-on-med-and-down"></div>
+  <div class="col s3 m3"><img src="https://source.unsplash.com/800x600/?cruise" alt="" class="materialboxed responsive-img first hide-on-med-and-down"></div>
+  
+    </div>
+  </div>
+  </div>
+
+  <!--section follow us -->
+<section class="section section-follow white-text center">
+  <div class="container follow">
+    <div class="row">
+      <div class="col12 white-text">
+        <h1 class="white-text">Follow Seaware foundation </h1>
+        <p>Follow us pretty much everywhere</p>
+        <a href="#" class="black-text"></a>
+          <i class="medium material-icons">airplay</i>
+
+        <a href="#" class="black-text"></a>
+          <i class="medium material-icons">ac_unit</i>
+
+        <a href="#" class="black-text"></a>
+          <i class="medium material-icons">account_balance</i>
+      </div>
+    </div>
+  </div>
+</section>
+
+<br><br>
+
+
+
+
+
+
+
+
+
+<!--  Chat Link -->
+<div class="fixed-action-btn"><a class="btn-floating btn-large red" href="https://gitter.im/Dogfalo/materialize" target="_blank"><i class="large material-icons ">chat</i></a></div>
+
+
+<!-- carousel-->
+<div class="carousel carousel-slider center" data-indicators="true">
+    <div class="carousel-fixed-item center">
+    </div>
+    <div class="carousel-item red white-text" href="#one!">
+      <h2>Stuttagard</h2>
+      <p class="white-text">This is your first panel</p>
+    </div>
+    <div class="carousel-item amber white-text" href="#two!">
+      <h2>Titanic</h2>
+      <p class="white-text">This is your second panel</p>
+    </div>
+    <div class="carousel-item green white-text" href="#three!">
+      <h2>Third Panel</h2>
+      <p class="white-text">This is your third panel</p>
+    </div>
+    <div class="carousel-item blue white-text" href="#four!">
+      <h2>Fourth Panel</h2>
+      <p class="white-text">This is your fourth panel</p>
+    </div>
+    <div class="row slider-center"><i id="next" class="material-icons">chevron_right</i> <i id="prev" class="material-icons arrow">chevron_left</i></div>
+  </div>
+
+
+
+
+<!-- footer -->
+
+
+
+<footer class="page-footer ">
+  <div class="container">
+    <div class="row">
+      <div class="col l4 offset-l2 m6 center offset-m2 s12">
+        <img src="img/Main.png" class="footer-logo -responsible"  width="220px" height="70px" alt="">
+        <p class="white-text text-lighten-4">This is our page about educating people</p>
+      </div>
+      <div class="col l4 offset-l2 m6 s12">
+        <h5 class="white-text">Pages</h5>
+        <ul>
+          <li><a class="white-text text-lighten-3" href="#!">Home</a></li>
+          <li><a class="white-text text-lighten-3" href="#!">Podcast</a></li>
+          <li><a class="white-text text-lighten-3" href="#!">Articles</a></li>
+          <li><a class="white-text text-lighten-3" href="#!">Support</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+</footer>
+
+
+
+
+
+
+      
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+ 
+    <script>
+     
+
+      $('.carousel.carousel-slider').carousel({
+    fullWidth: true,
+    indicators: false
+});
+
+$('#carousel-next').on('touchstart', function (e) {
+    e.preventDefault();
+    e.stopPropagation();
+    $('#carouselFirst').carousel('next');
+});
+
+$('#carousel-prev').on('touchstart', function (e) {
+    e.preventDefault();
+    e.stopPropagation();
+    $('#carouselFirst').carousel('prev');
+});
+    </script>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+    $(document).ready(function(){ 
+        $('.sidenav').sidenav();
+    })
+</script>
+
+<script>
+  
+</script>
+
+
+<script>
+
+
+// jQuery
+
+$(document).ready(function(){
+  $('.materialboxed').materialbox();
+});
+</script>
+
+<script>
+  $('.dropdown-button').dropdown();
+</script>
+
+
+
+
+
+<script>
+   //JavaScript
+  const slider = document.querySelector('.slider');
+  M.Slider.init(slider, {
+    indicators: false,
+    height: 600,
+    transition :500,
+    interval : 6000
+  });
+</script>
+
+<script>
+  $('.carousel').carousel({
+              fullWidth: true,
+              indicators: true
+          });
+  
+   $('i#prev').click(function() {
+      $('.carousel').carousel('prev');
+  });
+  
+  $('i#next').click(function() {
+      $('.carousel').carousel('next');
+  });
+      </script>
+
+ <script>
+    
+    $(".step").click( function() {
+	$(this).addClass("active").prevAll().addClass("active");
+	$(this).nextAll().removeClass("active");
+});
+
+$(".step01").click( function() {
+	$("#line-progress").css("width", "3%");
+	$(".discovery").addClass("active").siblings().removeClass("active");
+});
+
+$(".step02").click( function() {
+	$("#line-progress").css("width", "34%");
+	$(".strategy").addClass("active").siblings().removeClass("active");
+});
+
+$(".step03").click( function() {
+	$("#line-progress").css("width", "68%");
+	$(".creative").addClass("active").siblings().removeClass("active");
+});
+
+$(".step04").click( function() {
+	$("#line-progress").css("width", "100%");
+	$(".production").addClass("active").siblings().removeClass("active");
+});
+
+
+
+ 
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
