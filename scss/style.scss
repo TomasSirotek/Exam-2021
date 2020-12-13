@@ -3,6 +3,7 @@ body {
     min-height: 100vh;
     flex-direction: column;
     
+    
    
    
   }
@@ -12,9 +13,11 @@ body {
   }
 
   h3{
-    font-size: 80px;
+    font-size: 60px;
     padding-top: 60px;
   }
+
+  
 
  
 
@@ -29,17 +32,411 @@ body {
     padding-top: 30px;
 }
 
-
 .video-container {
-  padding-left:30px ;
-  width: 700px;
-  height: 30px;
+    margin-top: 90px;
+}
+.btn-large{
+    margin-top: 70px;
+    width: 200px;
+    height: 50px;
+    
+}
+
+.headline{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  font-size: 50px;
+  padding-top: 100px;
+}
+
+
+
+h1{
+  font-size: 40px;
   
 }
 
-h2 {
-
+#dropdown1 {
+  margin-top: 350px;
 }
+
+h2{
+  text-transform: uppercase;
+}
+.stories{
+  margin-top: 35px;
+  padding-bottom: 30px;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.after-video{
+  width: 67%;
+  margin: auto;
+  font-size: 16px;
+  
+}
+.section-follow .material-icons{
+  margin: 5px 10px;
+  
+}
+.first{
+  padding-top: 20px;
+  margin-bottom: 30px;
+  
+}
+.gallery-text{
+  
+  margin-bottom: 50px;
+  
+}
+.circle{
+  
+  margin-bottom: 30px;
+  
+}
+.content{
+  padding-top: 40px;
+  font-size: 20px;
+  
+}
+.section-follow{
+  background: linear-gradient( rgb(0, 0, 0), rgba(0, 22, 37, 0.85) );
+  
+}
+.page-footer{
+  background-color: black;
+  
+  
+}
+.video-container{
+  padding-bottom: 550px;
+  
+}
+
+.header-podcast{
+  text-transform: uppercase;
+  font-size: 40px;
+}
+.small-text{
+  padding-top: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  
+}
+.red{
+  margin-top: 30px ;
+ 
+  
+}
+
+.wrapper {
+  background-color: black;
+  height: 1px;
+  margin: 35px 0 0;
+  text-align: center;
+}
+
+span {
+  position: relative;
+  top: -8px;
+  padding: 0 15px;
+  font-weight: 500;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-size: 1em;
+  color: #000000;
+  background: #ffffff;
+}
+
+.margin{
+  padding-top: 50px;
+  
+}
+.name{
+  margin-bottom: -5px;
+  font-weight: bold;
+}
+.footer-logo{
+  padding-top: 20px;
+  
+}
+#dropdown1{
+  padding-top: 10px;
+  
+}
+
+
+
+.btn-floating {
+  right: auto; 
+  margin-left: 21%; 
+}
+
+
+h1 {
+	 	  
+	color:#333;
+	margin-top:80px;	 
+	text-align:center;
+	text-transform:uppercase;
+	letter-spacing:4px;
+	
+}
+
+/* --- Start progress bar --- */
+
+.process-wrapper {
+	margin:auto;
+	max-width:1500px;
+}
+
+#progress-bar-container {
+	position:relative;
+	width:90%;
+	margin:auto;
+	height:100px;
+  margin-top:65px;
+  align-items: center;
+  margin-left: 10%;
+}
+
+#progress-bar-container ul {
+	padding:0 0 0 90px;
+	margin:0;
+	padding-top:15px;
+	z-index:9999;
+	position:absolute;
+	width:100%;
+  margin-top:-40px
+  
+}
+
+#progress-bar-container li:before {
+	content:" ";
+	display:block;
+	margin:auto;
+	width:30px;
+	height:30px;
+	border-radius:50%;
+	border:solid 2px #aaa;
+	transition:all ease 0.3s;
+     
+}
+
+#progress-bar-container li.active:before, #progress-bar-container li:hover:before {
+	border:solid 2px #fff;
+       	 
+	background: blue; 
+}
+
+#progress-bar-container li {
+	list-style:none;
+	float:left;
+	width:20%;
+	text-align:center;
+	color:#aaa;
+	text-transform:uppercase;
+	font-size:11px;
+	cursor:pointer;
+	font-weight:700;
+	transition:all ease 0.2s;
+	vertical-align:bottom;
+	height:60px;
+	position:relative;
+}
+
+#progress-bar-container li .step-inner {
+	position:absolute;
+	width:100%;
+	bottom:0;
+    font-size: 14px;
+}
+
+#progress-bar-container li.active, #progress-bar-container li:hover {
+	color:#444;
+}
+
+#progress-bar-container li:after {
+	content:" ";
+	display:block;
+	width:6px;
+	height:6px;
+	background:#777777;
+	margin:auto;
+	border:solid 7px #fff;
+	border-radius:50%;
+	margin-top:45px;
+	box-shadow:0 2px 13px -1px rgba(0,0,0,0.3);
+	transition:all ease 0.2s;
+     
+}
+
+#progress-bar-container li:hover:after {
+	background:rgb(214, 34, 34);
+}
+
+#progress-bar-container li.active:after {
+	background:#207893;
+}
+
+#progress-bar-container #line {
+	width:55%;
+  margin:auto;
+  /*color for line */
+	background: #eee; 
+	height:6px;
+	position:absolute;
+	left:17%;
+	top:57px;
+	z-index:1;
+	border-radius:50px;
+	transition:all ease 0.9s;
+}
+
+#progress-bar-container #line-progress {
+	content:" ";
+	width:8%;
+	height:100%;
+	background: #207893;	 
+	background: linear-gradient(to right, #207893 0%,#2ea3b7 100%); 
+	position:absolute;
+	z-index:2;
+	border-radius:50px;
+	transition:all ease 0.9s;
+}
+
+#progress-content-section {
+  width:60%;
+  height: 300px;
+  margin: auto;
+  /*color of container */
+	background: linear-gradient( rgb(0, 0, 0), rgba(0, 22, 37, 0.85) );
+	border-radius: 4px;
+}
+
+#progress-content-section .section-content {
+	padding:30px 40px;
+	text-align:center;
+}
+
+#progress-content-section .section-content h2 {
+	font-size:17px;
+	text-transform:uppercase;
+	color:#333;
+	letter-spacing:1px;
+}
+
+#progress-content-section .section-content p {
+	font-size:16px;
+	line-height:1.8em;
+	color:#777;
+}
+
+#progress-content-section .section-content {
+	display:none;
+	animation: FadeInUp 700ms ease 1;
+	animation-fill-mode:forwards;
+	transform:translateY(15px);
+	opacity:0;
+}
+
+#progress-content-section .section-content.active {
+	display:block;
+}
+
+h2{
+  margin-top: 20px;
+}
+
+@keyframes FadeInUp {
+	0% {
+		transform:translateY(15px);
+		opacity:0;
+	}
+	
+	100% {
+		transform:translateY(0px);
+		opacity:1;
+	}
+}
+
+.arrow{
+  margin-top: 5px;
+}
+
+
+/*testimonials*/
+
+#testimonials-section {
+  padding-top: 10px;
+  background: linear-gradient( rgb(0, 0, 0), rgba(0, 22, 37, 0.85) ), url(https://meral.ar-lab.ga/img/testimonials-bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+  color: #a1aaad;
+  
+}
+#testimonial {
+	padding: -70px 0;
+  text-align: center;
+}
+#testimonial .item {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+#testimonial .item p {
+	font-weight: 400;
+	margin: 0 0 30px 0;
+}
+hr {
+    height: 3px;
+    width: 60px;
+    position: relative;
+    background: #a5a5a5;
+    border: 0;
+    margin-bottom: 30px;
+}
+
+/*carousel */
+
+.row.slider-center {
+    position: absolute;
+    top:50%;
+    width:100%;
+}
+i#next {
+    position: absolute;
+    right: 10px;
+    color: #fff;
+    background: #634e4e99;
+    font-size: 35px;
+    font-weight: 800;
+    border-radius: 50px;
+    border: 1px solid;
+    cursor:pointer;
+}
+i#prev {
+    cursor: pointer;
+    position: absolute;
+    left: 20px;
+    color: #fff;
+    background: #634e4e99;
+    font-size: 35px;
+    font-weight: 800;
+    border-radius: 50px;
+    border: 1px solid;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
