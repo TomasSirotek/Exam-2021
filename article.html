@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="scss/style.css">
+    <title>Articles</title>
+</head>
+<body>
+    <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter bigbang">
+        <div class="gallery-curve-wrapper">
+          <a class="gallery-cover gray">
+            <img class="responsive-img" src="img/pexels-martin-damboldt-799091.jpg" alt="placeholder">
+          </a>
+          <div class="gallery-header">
+            <span>Gallery Link</span>
+          </div>
+          <div class="gallery-body">
+            <div class="title-wrapper">
+              <h3>Grapefruit</h3>
+              <span class="price">$14.99</span>
+            </div>
+          </div>
+          <div class="gallery-action">
+            <a class="btn-floating btn-large waves-effect waves-light">
+              <i class="material-icons">favorite
+            </i></a>
+          </div>
+        </div>
+      </div>
+
+      <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+      <!-- Compiled and minified JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      
+        <script>$('.gallery-expand').galleryExpand('open'); </script>
+
+
+        <script>$('.gallery-expand').galleryExpand('close'); </script>
+        <script>var $masonry = $('.gallery');
+            $masonry.masonry({
+              // set itemSelector so .grid-sizer is not used in layout
+              itemSelector: '.gallery-item',
+              // use element for option
+              columnWidth: '.gallery-item',
+              // no transitions
+              transitionDuration: 0
+            });
+            
+            // layout Masonry after each image loads
+            $masonry.imagesLoaded(function() {
+              $masonry.masonry('layout');
+            });</script>
+
+</body>
+</html>
