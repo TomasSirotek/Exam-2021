@@ -404,6 +404,7 @@ hr {
     position: absolute;
     top:50%;
     width:100%;
+   
 }
 i#next {
     position: absolute;
@@ -426,6 +427,10 @@ i#prev {
     font-weight: 800;
     border-radius: 50px;
     border: 1px solid;
+}
+.carousel img {
+    width: 100%;
+    height: 500px;
 }
 
 
