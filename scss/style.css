@@ -453,10 +453,4 @@ i#prev {
 .help-more {
   padding-bottom: 30px;
 }
-
-#socials {
-  display: flex;
-  flex-direction: row;
-  transform: translateX(35%);
-}
 /*# sourceMappingURL=style.css.map */
