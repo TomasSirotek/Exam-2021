@@ -444,6 +444,13 @@ i#prev {
 
 .carousel img {
   width: 100%;
-  height: 500px;
+}
+
+.carousel-slider {
+  height: 20px;
+}
+
+.help-more {
+  padding-bottom: 30px;
 }
 /*# sourceMappingURL=style.css.map */
