@@ -448,8 +448,14 @@ i#prev {
 }
 
 #socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  transform: translateX(35%);
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-transform: translateX(35%);
+          transform: translateX(35%);
 }
 /*# sourceMappingURL=style.css.map */

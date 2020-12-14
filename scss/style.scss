@@ -433,7 +433,11 @@ i#prev {
     height: 500px;
 }
 
-
+#socials {
+  display: flex;
+  flex-direction: row;
+  transform: translateX(35%);
+}
 
 
 
