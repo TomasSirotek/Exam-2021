@@ -57,25 +57,35 @@
           <img src="img/ship.jpg">   <!--random image -->
 
             <div class="caption center-align ">
-              <img class="main-logo img-responsive" src="img/Main_smaller.png" alt=""> <!--repair if text wanted-->
-            <div class="waves-effect btn-large color-button " > Read more!
+              <img class="main-logo img-resp hide-on-med-and-down" src="img/Main_smaller.png" alt=""> <!--repair if text wanted-->
+            <div  class="waves-effect btn-large color-button  " > 
+              <a href="#introduction" class="Read-more white-text ">Read more</a>
+          
             </div>
         </li>
 
-        
+        <li>
+          <img src="img/slider1.jpg">   <!--random image -->
 
-       
-            
-            
-          </div>
-        </li>
+            <div class="caption center-align ">
+              <img class="main-logo img-resp hide-on-med-and-down" src="img/Main_smaller.png" alt=""> <!--repair if text wanted-->
+            <div  class="waves-effect btn-large color-button  " > 
+              <a href="#gallery" class="Read-more white-text ">Gallery</a>
+          
+            </div>
 
-        
-            
-            
-            
-          </div>
+
         </li>
+        <li>
+        <img src="img/baltic.jpg">   <!--random image -->
+
+            <div class="caption center-align ">
+              <img class="main-logo img-resp hide-on-med-and-down" src="img/Main_smaller.png" alt=""> <!--repair if text wanted-->
+            <div  class="waves-effect btn-large color-button  " > 
+              <a href="support.html" class="Read-more white-text">Support Us !</a>
+          
+            </div>
+          </li>
         
       </ul>
 
@@ -97,7 +107,7 @@
     
     
     <!-- how it works -->
-    <h1>How the process works</h1>
+    <h1  >How the process works</h1>
 <br> 
 <div class="process-wrapper">
 <div id="progress-bar-container">
@@ -161,7 +171,7 @@
 
     
 <!--our stories-->
-<h1 class="center stories">Explore the stories</h1>
+<h1  class="center stories" id="introduction" >Explore the stories</h1>
 <div class="row" style="width: 90%; margin: auto;">
 <!--card1-->
   <div class="col l4 m12 s12">
@@ -200,7 +210,7 @@
         <p>I am a very simple card. I am good at containing small bits of information.
         I am convenient because I require little markup to use effectively.</p>
       </div>
-      <div id="read-more" class="card-action z-depth-2 scrollSpy">
+      <div id="read-more" class="card-action z-depth-2">
         <a href="#">Discover more </a>
       </div>
 
@@ -273,7 +283,7 @@
 <!--gallery of ships-->
 
 <!-- carousel gallery-->
-<h1 class="center-align">Galery of ships</h1>
+<h1 id="gallery" class="center-align">Galery of ships</h1>
 
 <div class="carousel carousel-slider center" data-indicators="true">
   <div class="carousel-fixed-item center">
@@ -416,6 +426,12 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <script>
+      $(document).ready(function(){
+    $('.scrollspy').scrollSpy();
+  });
+    </script>
  
     <script>
      
