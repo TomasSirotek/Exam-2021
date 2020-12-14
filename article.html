@@ -8,34 +8,98 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet" rel="stylesheet">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/masonry-layout@4.2.2/dist/masonry.pkgd.min.js">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="stylesheet" href="scss/style.css">
-    <title>Articles</title>
+    <title>Seware Foundation </title>
+  
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      .parallax-container {
+        height: 100vh;
+      }
+
+    </style>
+
+  </head>
 </head>
 <body>
-    <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter bigbang">
-        <div class="gallery-curve-wrapper">
-          <a class="gallery-cover gray">
-            <img class="responsive-img" src="img/pexels-martin-damboldt-799091.jpg" alt="placeholder">
-          </a>
-          <div class="gallery-header">
-            <span>Gallery Link</span>
-          </div>
-          <div class="gallery-body">
-            <div class="title-wrapper">
-              <h3>Grapefruit</h3>
-              <span class="price">$14.99</span>
-            </div>
-          </div>
-          <div class="gallery-action">
-            <a class="btn-floating btn-large waves-effect waves-light">
-              <i class="material-icons">favorite
-            </i></a>
-          </div>
+      <!--nav bar with logo -->
+    <div class="navbar-fixed ">
+    <nav class="nav-wrapper white">
+        <div class="container">
+            <a href="landing_page.html" class="brand-logo left ">
+              <img src="img/roud.png" height="60px" wid alt="">
+            </a>
+            
+            <!--responsible for toggling menu-->
+            <a href="#" class="sidenav-trigger right" data-target='mobile-links'>
+                <i class=" material-icons black-text ">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#" class="dropdown-button black-text" data-target="dropdown1" >Pages<i class="material-icons right arrow">arrow_drop_down</i></a></li>
+                <li><a class="black-text" href="index.html">About us</a></li>
+                <li><a class="black-text" href="support.html">Support</a></li>
+            </ul>
         </div>
-      </div>
+    </nav>
+  </div>
+<!--mobile menu-->
+    <ul class="sidenav " id="mobile-links">
+                <li><a href="podcast.html">Podcast</a></li>
+                <li><a href="landing_page.html">Articles</a></li>
+                <li><a href="index.html">About us</a></li>
+                <li><a href="support.html">Support</a></li>
+    </ul>
+
+<!--dropdown-->
+<ul id="dropdown1" class="dropdown-content ">
+  <li><a class="black-text" href="podcast.html">Podcast</a></li>
+  <li class="divider"></li>
+  <li><a class="black-text" href="#">Articles</a></li>
+</ul>
+
+<section>
+  <div class="content">
+    <h1>Article1</h1>
+    <p>dsabfdlasblhdasbchbashuvczaudvcasuidvcuisdvc</p>
+  </div>
+</section>
+
+<div class="parallax-container">
+  <div class="parallax"><img src="img/photo1.jpg"></div>
+</div>
+
+<section>
+  <div class="content">
+    <p>dsabfdlasblhdasbchbashuvczaudvcasuidvcuisdvc</p>
+  </div>
+</section>
+
+<div class="parallax-container">
+  <div class="parallax"><img src="img/ship.jpg"></div>
+</div>
+
+<section>
+  <div class="content">
+    <p>dsabfdlasblhdasbchbashuvczaudvcasuidvcuisdvc</p>
+  </div>
+</section>
+
+<div class="parallax-container">
+  <div class="parallax"><img src="img/baltic.jpg"></div>
+</div>
+
+<section>
+  <div class="content">
+    <p>dsabfdlasblhdasbchbashuvczaudvcasuidvcuisdvc</p>
+  </div>
+</section>
 
 
       <footer class="page-footer ">
@@ -71,25 +135,10 @@
       <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
       <!-- Compiled and minified JavaScript -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-      
-        <script>$('.gallery-expand').galleryExpand('open'); </script>
 
-
-        <script>$('.gallery-expand').galleryExpand('close'); </script>
-        <script>var $masonry = $('.gallery');
-            $masonry.masonry({
-              // set itemSelector so .grid-sizer is not used in layout
-              itemSelector: '.gallery-item',
-              // use element for option
-              columnWidth: '.gallery-item',
-              // no transitions
-              transitionDuration: 0
-            });
-            
-            // layout Masonry after each image loads
-            $masonry.imagesLoaded(function() {
-              $masonry.masonry('layout');
-            });</script>
-
+      <script>$(document).ready(function(){
+        $('.parallax').parallax();
+      }); </script>
+  
 </body>
 </html>
