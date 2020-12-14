@@ -446,28 +446,6 @@ i#prev {
 }
 
  
-@media only screen and (max-width: 530px) {
-  #progress-bar-container {
- 
-    margin-left: -1px;
-    
-    
-  }
- 
-  
-    
-    
-  }
-  #line-progress {
-  
-    
-    margin-left: 32px;
-    
-  }
-
-  
-
-
 #progress-content-section .section-content p {
 	font-size:12px;
 	
@@ -475,7 +453,9 @@ i#prev {
 }
 
 
-
+.carousel { 
+  max-height: 500px;
+  }
 
 
 

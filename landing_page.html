@@ -55,13 +55,13 @@
 
     
 
-    <div class="slider">
+    <div  class="slider">
       <ul class="slides">
         <li>
-          <img  src="img/ship.jpg"> <!-- random image -->
-            <div class="caption center-align hide-on-med-and-down">
-              <img id="logo-main" src="#" alt=""><!--seaware logo slide ! -->
-             
+          <img src="img/ship.jpg">   <!--random image -->
+            <div class="caption center-align white-text">
+              <h3 class="headline">Seaware Foundation</h3> <!--repair if text wanted-->
+            <div class="waves-effect waves-light btn-large  " > Read more!
             </div>
         </li>
 
@@ -84,6 +84,7 @@
             <div class="caption center-align white-text">
               <h3 class="headline">Seaware Foundation</h3> <!--repair if text wanted-->
             <div class="waves-effect waves-light btn-large " > Read more!
+            
             </div>
             
             
@@ -214,7 +215,7 @@
         <p>I am a very simple card. I am good at containing small bits of information.
         I am convenient because I require little markup to use effectively.</p>
       </div>
-      <div class="card-action z-depth-2">
+      <div id="read-more" class="card-action z-depth-2 scrollSpy">
         <a href="#">Discover more </a>
       </div>
 
@@ -501,10 +502,12 @@ $(document).ready(function(){
   $('.carousel').carousel({
               fullWidth: true,
               indicators: true,
+              
           });
   
    $('i#prev').click(function() {
       $('.carousel').carousel('prev');
+      
   });
   
   $('i#next').click(function() {
