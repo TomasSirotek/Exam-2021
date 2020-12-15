@@ -11,7 +11,8 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    
+    margin: 0;
+    padding: 0;
     
   }
 
@@ -112,9 +113,9 @@ h2{
   margin-bottom: 30px;
   
 }
-.gallery-text{
+.gallery-ship{
   
-  margin-bottom: 50px;
+  margin: 50px;
   
 }
 .circle{
@@ -543,7 +544,6 @@ i#prev {
  
 
 
-
 @media only screen and (max-width: 600px) {
   #progress-bar-container #line {
     width:30%;
@@ -587,9 +587,7 @@ i#prev {
 }
 
 
-  
-  
- 
+
   
 
 

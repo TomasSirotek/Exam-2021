@@ -12,6 +12,8 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin: 0;
+  padding: 0;
 }
 
 main {
@@ -110,8 +112,8 @@ h2 {
   margin-bottom: 30px;
 }
 
-.gallery-text {
-  margin-bottom: 50px;
+.gallery-ship {
+  margin: 50px;
 }
 
 .circle {
