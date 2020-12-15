@@ -235,8 +235,7 @@ h1 {
 }
 
 #progress-bar-container li.active:before, #progress-bar-container li:hover:before {
-	border:solid 2px #fff;
-       	 
+	border:solid 2px #fff;   	 
   background: #25266B; 
 }
 
@@ -260,13 +259,15 @@ h1 {
 	position:absolute;
 	width:100%;
 	bottom:0;
-    font-size: 14px;
+  font-size: 14px;
+  
+  
 }
 
 #progress-bar-container li.active, #progress-bar-container li:hover {
 	color:#444;
 }
-
+ /*small bullet point adjust */
 #progress-bar-container li:after {
 	content:" ";
 	display:block;
@@ -274,8 +275,8 @@ h1 {
 	height:6px;
 	background:#777777;
 	margin:auto;
-	border:solid 7px #fff;
-	border-radius:50%;
+  border:solid 7px #ffffffab;
+  border-radius:50%;
 	margin-top:45px;
 	box-shadow:0 2px 13px -1px rgba(0,0,0,0.3);
 	transition:all ease 0.2s;
@@ -283,11 +284,11 @@ h1 {
 }
 
 #progress-bar-container li:hover:after {
-	background:rgb(214, 34, 34);
+	background:rgb(0, 0, 0);
 }
 
 #progress-bar-container li.active:after {
-	background:#207893;
+	background:#2f2f30;
 }
 
 #progress-bar-container #line {
@@ -489,12 +490,46 @@ i#prev {
   font-size: 30px;
 }
 
-@media only screen and (max-width: 1300px) {
+
+
+
+
+
+
+
+@media only screen and (max-width: 1114px) {
+  #progress-bar-container #line {
+    width:55%;
+    margin:auto;
+    background: #eee; 
+    height:6px;
+    position:absolute;
+    left:18%;
+    top:57px;
+    z-index:1;
+    border-radius:50px;
+    transition:all ease 0.9s;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    #progress-bar-container #line {
+      width:30%;
+      margin:auto;
+      /*color for line */
+      background: rgb(173, 34, 34); 
+      height:6px;
+      position:absolute;
+      left:18%;
+      top:57px;
+      z-index:1;
+      border-radius:50px;
+      transition:all ease 0.9s;
+    }
+    
+  }
   
 }
-
-
-
 
 
 
