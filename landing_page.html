@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet" rel="stylesheet">
     <!-- Compiled and minified CSS -->
@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="stylesheet" href="scss/style.css">
     <link rel="shortcut icon" href="img/roud.png" type="image/x-icon">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
     <title>Seaware Foundation </title>
   
   </head>
@@ -54,34 +55,33 @@
     <div  class="slider">
       <ul class="slides ">
         <li>
-          <img src="img/ship.jpg">   <!--random image -->
-
-            <div class="caption center-align ">
-              <img class="main-logo img-resp hide-on-med-and-down not-responsive" src="img/Main_smaller.png" alt=""> <!--repair if text wanted-->
-            <div  class="waves-effect btn-large color-button  " > 
-              <a href="#introduction" class="Read-more white-text ">Read more</a>
-          
-            </div>
-        </li>
-
-        <li>
-          <img src="img/slider1.jpg">   <!--random image -->
-
-            <div class="caption center-align ">
-              <img class="main-logo img-resp " src="img/Main_smaller.png" alt=""> <!--repair if text wanted-->
-            <div  class="waves-effect btn-large color-button  " > 
-              <a href="#gallery" class="Read-more white-text ">Gallery</a>
-          
-            </div>
-
-
+          <img class="responsive hide-on-small-only" src="img/Web 1920 – 1.png">   <!--random image -->
+          <img class="responsive show-on-small-only" src="img/Web 1920-2.png">   <!--random image -->
         </li>
         <li>
         <img src="img/baltic.jpg">   <!--random image -->
 
             <div class="caption center-align ">
-              <img class="main-logo img-resp hide-on-med-and-down" src="img/Main_smaller.png" alt=""> <!--repair if text wanted-->
-            <div  class="waves-effect btn-large color-button  " > 
+             
+              <h3 >Even following us is a huge help for us </h3>
+
+            <div  class="waves-effect btn-large color-button pulse  " > 
+              <a href="#gallery" class="Read-more white-text">Go for it !</a>
+          
+            </div>
+          </li>
+
+
+        
+
+        <li>
+        <img src="img/slider1.jpg">   <!--random image -->
+
+            <div class="caption center-align ">
+             
+              <h3 id="even">Even following us is a huge help for us </h3>
+
+            <div  class="waves-effect btn-large color-button pulse " > 
               <a href="support.html" class="Read-more white-text">Support Us !</a>
           
             </div>
@@ -173,8 +173,9 @@
 
     
 <!--our stories-->
-<h1  class="center stories" id="introduction" >Explore the stories</h1>
+<h2  class="center stories" id="introduction" >Explore the stories</h2>
 <div class="row" style="width: 90%; margin: auto;">
+  
 <!--card1-->
   <div class="col l4 m12 s12">
     <div class="card">
@@ -263,9 +264,9 @@
 
   <!--testimonials-->
 <div id="testimonials-section" class="text-center">
-  <div class="container">
-    <div class="section-title">
-      <h2 class="center-align"> What they said <strong>about us</strong> </h2>
+  <div class="container ">
+    <div class="section-title ">
+      <h2 class="center-align what-text"> What they said about us</h2>
       <hr>
     </div>
     <div class="row">
@@ -273,7 +274,7 @@
         <div id="testimonial" class="owl-carousel owl-theme">
           <div class="item">
             <p>Curabitur malesuada lacus at purus pharetra, vitae egestas augue blandit. Duis feugiat vestibulum turpis, malesuada volutpat augue aliquet at. Vivamus egestas urna id eros tincidunt, in dictum enim tincidunt. Suspendisse vel pellentesque velit, non pretium erat. Ut commodo, arcu ac luctus pretium, ante est hendrerit risus, non efficitur odio nisl ac diam. Quisque vestibulum arcu tortor. Nam suscipit nisl laoreet purus facilisis, vel tempus lacus pellentesque.</p>
-            <p><strong>Robert Dolzal</strong>, Executive manager
+            <p ><strong class="white-text">Robert Dolzal</strong>,<br> Executive manager
 , FindFish.com</p>
           </div>
           
@@ -292,7 +293,7 @@
 
 
 <!-- carousel gallery-->
-<h1 id="gallery" class="center-align">Gallery of ships</h1>
+<h1 id="gallery" class="center-align gallery-ship">Gallery of ships</h1>
 
 <div class="carousel carousel-slider center" data-indicators="true">
   <div class="carousel-fixed-item center">
@@ -311,6 +312,7 @@
   </div>
   <div class="row slider-center"><i id="next" class="material-icons">chevron_right</i> <i id="prev" class="material-icons arrow">chevron_left</i></div>
 </div>
+<h1 id="gallery" class="center-align gallery-ship">"180 000 Kg is down there"</h1>
 
   <!--section follow us -->
 <section class="section section-follow white-text center">
@@ -319,15 +321,18 @@
       <div class="col12 white-text">
         <h1 class="white-text">Follow Seaware foundation </h1>
         <p>Follow us pretty much everywhere</p>
-        <a href="#" class="black-text"></a>
-        <i class="medium material-icons">account_balance</i>
+        <a href="https://www.instagram.com/seawarefoundation/" class="white-text ">
+          <i class="fab fa-instagram fa-5x "></i>
+        </a>
 
-        <a href="#" class="black-text"></a>
-        <i class="medium material-icons">account_balance</i>
+        <a href="https://twitter.com/SeawareF" class="white-text ">
+          <i class="fab fa-twitter fa-5x "></i>
+        </a>
 
-        <a href="#" class="black-text"></a>
-          <i class="medium material-icons">account_balance</i>
-      </div>
+        <a href="https://www.youtube.com/channel/UCfYpYwLnatVJrpeN5QMQJSw" class="white-text">
+          <i class="fab fa-youtube fa-5x"></i>
+        </a>
+
     </div>
   </div>
 </section>
@@ -355,9 +360,9 @@
         </div>
           <p class="margin center-align p-text">
              Are you more interested about the problem and help us clean the oceans ? Subscribe to our Newsletter</p>
-            
         </div>
        
+      
       
         
 
@@ -375,57 +380,71 @@
                     <label for="name">Email</label>
                 </div>
                 <div class="input-field col s6">
-                  <button data-target="modal1" class="btn modal-trigger">Subscribe</button>
+                  <button data-target="modal1" class="btn modal-trigger sub-buttom">Subscribe</button>
                 </div>
                 <div id="modal1" class="modal">
                   <div class="modal-content">
-                    <h4>Thank you </h4>
-                    <p>You have just saved one turtle ! The god be with you. Let us hug you as soon as we mett you !  </p>
+                    <h4>Thank you!</h4>
+                    <p>Thank you for Subscribing to our newsletter. You are awesome and we appriciate your attention. 
+                   Check your email !  </p>
                   </div>
                   <div class="modal-footer">
                     <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+                    
                   </div>
                 </div>
+                
             </div>
+            
         </form>
+        
      </div>
       
 
-<!-- footer -->
 
 
 
-<footer class="page-footer ">
-  <div class="container">
-    <div class="row center-align">
-      <div class="col l4 offset-l2 m6 center offset-m2 s12">
-        <img src="img/logowithwhite.png" class="footer-logo -responsible"  width="200px" height="150px" alt="">
-        <ul id="socials">
-          <li><a href="#" class="btn-floating btn-small yellow darken-3"> 
-            <i class="fab fa-instagram"></i>
-          </a></li>
-          <li><a href="#" class="btn-floating btn-small yellow darken-3">
-            <i class="fab fa-facebook"></i>
-          </a></li>
-          <li><a href="#" class="btn-floating btn-small yellow darken-3">
-            <i class="fab fa-twitter"></i></a></li>
-        </ul>
-      </div>
-      <div class="col l4 offset-l2 m6 s12">
-        <h5 class="white-text">Pages</h5>
-        <ul>
-          <li><a class="white-text text-lighten-3" href="#!">Home</a></li>
-          <li><a class="white-text text-lighten-3" href="#!">Podcast</a></li>
-          <li><a class="white-text text-lighten-3" href="#!">Articles</a></li>
-          <li><a class="white-text text-lighten-3" href="#!">Support</a></li>
-        </ul>
-      </div>
+
+
+
+<!--footer 2-->
+
+
+<footer class="page-footer">
+  <div class="row">
+    <div class="col l4 offset-l2 m6 s12">
+      <h5 class="white-text">SEAWARE FOUNFATION</h5>
+      <p>Revolution is coming</p>
+      <p class="grey-text text-lighten-4">Organization that have been created with love and care.And much much more. Someone send help its 6 am and im still coding my pain.</p>
+      <a href="https://www.instagram.com/seawarefoundation/" class="white-text ">
+        <i class="fab fa-instagram fa-2x "></i>
+      </a>
+
+      <a href="https://twitter.com/SeawareF" class="white-text">
+        <i class="fab fa-twitter fa-2x"></i>
+      </a>
+
+      <a href="https://www.youtube.com/channel/UCfYpYwLnatVJrpeN5QMQJSw" class="white-text">
+        <i class="fab fa-youtube fa-2x"></i>
+      </a>
+    </div>
+    
+    <div class="col l2 offset-l3 m2 offset-m4  s12">
+      <h6 class="white-text move underline">General</h6>
+      <ul>
+        <li><a class="grey-text text-lighten-3 move3" href="#!">Podcast</a></li>
+        <li><a class="grey-text text-lighten-3 move2" href="#!">Articles</a></li>
+        <li><a class="grey-text text-lighten-3 move2" href="#!">About us</a></li>
+        <li><a class="grey-text text-lighten-3 move2" href="support.html">Support</a></li>
+        <!--add #socials scroolSpy-->
+        <li><a class="grey-text text-lighten-3" href="#socials">Socials</a></li>
+      </ul>
     </div>
   </div>
-  
+<div class="footer-copyright right">
+    <div class="col l2 m2 s12 designed-by"><a class="grey-text text-lighten-4 " href="http://www.pornhub.com/" target="_blank">Designed By US</a></div>
+</div>
 </footer>
-
-
 
 
 
@@ -467,7 +486,10 @@ $('#carousel-prev').on('touchstart', function (e) {
 <script>
     $(document).ready(function(){ 
         $('.sidenav').sidenav();
+          
     })
+
+    
 </script>
 
 <script>
@@ -488,9 +510,6 @@ $(document).ready(function(){
 });
 </script>
 
-<script>
-  $('.dropdown-button').dropdown();
-</script>
 
 
 
