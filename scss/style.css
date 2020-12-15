@@ -458,8 +458,8 @@ i#prev {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-transform: translateX(35%);
-          transform: translateX(35%);
+  -webkit-transform: translate(35%, -150%);
+          transform: translate(35%, -150%);
 }
 
 .carousel-slider {
