@@ -131,6 +131,10 @@ h2 {
   margin-top: 30px;
 }
 
+.section {
+  margin-top: 10px;
+}
+
 .page-footer {
   background-color: black;
 }
@@ -408,7 +412,8 @@ h2 {
 
 /*testimonials*/
 #testimonials-section {
-  padding-top: 10px;
+  padding-top: 40px;
+  padding-bottom: px;
   background: -webkit-gradient(linear, left top, left bottom, from(black), to(rgba(0, 22, 37, 0.85))), url(https://meral.ar-lab.ga/img/testimonials-bg.jpg);
   background: linear-gradient(black, rgba(0, 22, 37, 0.85)), url(https://meral.ar-lab.ga/img/testimonials-bg.jpg);
   background-size: cover;
