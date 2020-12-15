@@ -22,13 +22,33 @@ main {
 
 h3 {
   font-size: 60px;
-  padding-top: 60px;
+  padding-top: 50px;
 }
 
 .navbar-fixed img {
   padding-top: 6px;
   padding-left: 10px;
   padding-bottom: 5px;
+}
+
+.date {
+  color: #25266B;
+}
+
+.avatar {
+  padding-top: 30px;
+}
+
+.sub-buttom {
+  background-color: #f3b41b;
+}
+
+.sub-buttom:hover {
+  background-color: #c99208;
+}
+
+.btn-large:hover {
+  background-color: #c99208;
 }
 
 .avatar {
@@ -60,6 +80,10 @@ h1 {
   margin-top: 350px;
 }
 
+.what-text {
+  font-size: 40px;
+}
+
 h2 {
   text-transform: uppercase;
 }
@@ -68,7 +92,7 @@ h2 {
   margin-top: 35px;
   padding-bottom: 30px;
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .after-video {
@@ -450,6 +474,53 @@ i#prev {
   width: 100%;
 }
 
+.section-follow .fa-5x {
+  margin: 30px;
+}
+
+.page-footer .fa-2x {
+  margin: 3px;
+}
+
+.underline {
+  position: relative;
+}
+
+.underline:after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  /*position the underline using left and bottom property*/
+  left: 0;
+  width: 83px;
+  /* adjust the width of underline as you like*/
+  border-bottom: 1px solid #ccc;
+  /* adjust the underline width and color as you like*/
+}
+
+.move {
+  padding-top: 2px;
+  font-size: 21px;
+}
+
+.move2 {
+  line-height: 20px;
+}
+
+.move3 {
+  margin-top: 50px;
+}
+
+.page-footer {
+  background: -webkit-gradient(linear, left top, left bottom, from(black), to(rgba(0, 22, 37, 0.85)));
+  background: linear-gradient(black, rgba(0, 22, 37, 0.85));
+  font-size: 16px;
+}
+
+.designed-by {
+  margin-right: 15px;
+}
+
 #socials {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -487,22 +558,16 @@ i#prev {
   background-color: #f3b41b;
 }
 
-.main-logo {
-  height: 80%;
-  padding-right: 700px;
-  padding-top: 41px;
-  margin-bottom: 20px;
-}
-
 .start-text-index {
   font-size: 30px;
 }
 
-@media only screen and (max-width: 1114px) {
+@media only screen and (max-width: 600px) {
   #progress-bar-container #line {
-    width: 55%;
+    width: 30%;
     margin: auto;
-    background: #eee;
+    /*color for line */
+    background: #ad2222;
     height: 6px;
     position: absolute;
     left: 18%;
@@ -512,14 +577,17 @@ i#prev {
     -webkit-transition: all ease 0.9s;
     transition: all ease 0.9s;
   }
+  h3 {
+    font-size: 40px;
+    padding-top: 50px;
+  }
 }
 
-@media only screen and (max-width: 1114px) and (max-width: 600px) {
+@media only screen and (max-width: 1114px) {
   #progress-bar-container #line {
-    width: 30%;
+    width: 55%;
     margin: auto;
-    /*color for line */
-    background: #ad2222;
+    background: #eee;
     height: 6px;
     position: absolute;
     left: 18%;
