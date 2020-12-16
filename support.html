@@ -13,7 +13,25 @@
     <link rel="stylesheet" href="scss/style.css">
     <link rel="shortcut icon" href="img/roud.png" type="image/x-icon">
     <title>Support</title>
-  
+    <style>
+      #introduction{
+        margin: 50px;
+      }
+
+      #card1{
+        height: 70%;
+        max-width: 900px;
+        padding: 0;
+        margin: 0
+      }
+
+      #card2{
+        height: 70%;
+        max-width: 900px;
+        padding: 0;
+        margin: 0;
+      }
+    </style>
   </head>
 </head>
 <body>
@@ -45,144 +63,161 @@
                 <li><a href="articles.html">Articles</a></li>
                 <li><a href="index.html">About us</a></li>
     </ul>
-    
-      <div>
-          <h1  class="center stories" id="introduction" >Support our cause</h1>
-          <div class="row" style="width: 90%; margin: auto;">
+
+      <div class="slider">
+        <ul class="slides">
+          <li>
+            <img src="img/pack1.png"> <!-- random image -->
+            <div class="caption center-align">
+              <h3 class="black-text">Check out our merch!</h3>
+              <h5 class="black-text">All of the money goes towards preventing the next disaster</h5>
+          
+            </div>
+          </li>
+          <li>
+            <img src="img/shirtfinal.png"> <!-- random image -->
+            <div class="caption left-align">
+              <h3 class="black-text">T-Shirts</h3>
+              
+            </div>
+          </li>
+          <li>
+            <img src="img/mug2final.png"> <!-- random image -->
+            <div class="caption right-align">
+              <h3 class="black-text">Mugs</h3>
+              
+            </div>
+          </li>
+          <li>
+            <img src="img/bagfinal.png"> <!-- random image -->
+            <div class="caption center-align">
+              <h3 class="black-text">Other goods</h3>
+             
+            </div>
+          </li>
+        </ul>
       </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="col s12">
-          <div class="card large">
-            <div class="card-image">
-              <img src="img/pack1.png">
-              <span class="card-title black-text">Supporter pack</span>
+      <ul id="tabs-swipe-demo" class="tabs">
+        <li class="tab col s3"><a href="#test-swipe-1">T-shirts</a></li>
+        <li class="tab col s3"><a class="active" href="#test-swipe-2">Mugs</a></li>
+        <li class="tab col s3"><a href="#test-swipe-3">Others</a></li>
+        <li class="tab col s3"><a href="#test-swipe-4">Packs</a></li>
+      </ul>
+    <div id="tab-pages">
+      <div id="test-swipe-1" class="col s12 white black-text">
+        <div class="row">
+          <div class="col s6">
+            <div class="card left-align" id="card1">
+              <div class="card-image">
+                <img src="img/shirtfinal.png">
+                <span class="card-title black-text">T-shirt with round logo</span>
+                <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+              </div>
+              <div class="card-content">
+                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+              </div>
             </div>
-            <div class="card-content">
-              <p>Contains a T-shirt, a mug and a tote bag</p>
-            </div>
-            <div class="card-action">
-              <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Buy now!</a>
+          </div>
+          <div class="col s6">
+            <div class="card right-align" id="card2">
+              <div class="card-image">
+                <img src="img/shirt2final.png">
+                <span class="card-title black-text">T-shirt with logo</span>
+                <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+              </div>
+              <div class="card-content">
+                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col s12">
-          <div class="card large">
-            <div class="card-image">
-              <img src="img/pack2.png">
-              <span class="card-title black-text">Supporter pack2</span>
-            </div>
-            <div class="card-content">
-              <p>Contains a T-shirt and mug</p>
-            </div>
-            <div class="card-action">
-              <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Buy now!</a>
-            </div>
-          </div>
-        </div>
-        <br>
-        <div>
-          <h4  class="center stories" id="introduction" >T-shirts</h4>
       </div>
-      <br>
-        <div class="col s6">
-          <div class="card large">
-            <div class="card-image">
-              <img src="img/shirtfinal.png">
-              <span class="card-title black-text">T-shirt with round logo</span>
+      <div id="test-swipe-2" class="col s12 white black-text">
+        <div class="row">
+          <div class="col s6">
+            <div class="card left-align" id="card1">
+              <div class="card-image">
+                <img src="img/mugfinal.png">
+                <span class="card-title black-text">Mug with round logo</span>
+                <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+              </div>
+              <div class="card-content">
+                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+              </div>
             </div>
-            <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-            </div>
-            <div class="card-action">
-              <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Buy now!</a>
+          </div>
+          <div class="col s6">
+            <div class="card right-align" id="card2">
+              <div class="card-image">
+                <img src="img/mug2final.png">
+                <span class="card-title black-text">Mug with logo</span>
+                <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+              </div>
+              <div class="card-content">
+                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col s6">
-          <div class="card large">
-            <div class="card-image">
-              <img src="img/shirt2final.png">
-              <span class="card-title black-text">T-shirt with logo</span>
-            </div>
-            <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-            </div>
-            <div class="card-action">
-              <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Buy now!</a>
-            </div>
-          </div>
-        </div>
-        <br>
-        <div>
-          <h4  class="center stories" id="introduction" >Mugs</h4>
       </div>
-      <br>
-        <div class="col s6">
-          <div class="card large">
-            <div class="card-image">
-              <img src="img/mugfinal.png">
-              <span class="card-title black-text">Mug with round logo</span>
+      <div id="test-swipe-3" class="col s12 white black-text">
+        <div class="row">
+          <div class="col s6">
+            <div class="card left-align" id="card1">
+              <div class="card-image">
+                <img src="img/posterfinal.png">
+                <span class="card-title black-text">Poster</span>
+                <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+              </div>
+              <div class="card-content">
+                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+              </div>
             </div>
-            <div class="card-content">
-              <p>ddddddddddddddddddd</p>
-            </div>
-            <div class="card-action">
-              <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Buy now!</a>
+          </div>
+          <div class="col s6">
+            <div class="card right-align" id="card2">
+              <div class="card-image">
+                <img src="img/bagfinal.png">
+                <span class="card-title black-text">Tote bag</span>
+                <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+              </div>
+              <div class="card-content">
+                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col s6">
-          <div class="card large">
-            <div class="card-image">
-              <img src="img/mug2final.png">
-              <span class="card-title black-text">Mug with logo</span>
-            </div>
-            <div class="card-content">
-              <p>Contains a T-shirt, a mug and a tote bag</p>
-            </div>
-            <div class="card-action">
-              <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Buy now!</a>
-            </div>
-          </div>
-        </div>
-        <br>
-        <div>
-          <h4  class="center stories" id="introduction" >Others</h4>
       </div>
-      <br>
-        <div class="col s6">
-          <div class="card large">
-            <div class="card-image">
-              <img src="img/posterfinal.png">
-              <span class="card-title black-text">Poster</span>
-            </div>
-            <div class="card-content">
-              <p>Contains a T-shirt, a mug and a tote bag</p>
-            </div>
-            <div class="card-action">
-              <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Buy now!</a>
+      <div id="test-swipe-4" class="col s12 white black-text">
+        <div class="row">
+          <div class="col s6">
+            <div class="card left-align" id="card1">
+              <div class="card-image">
+                <img src="img/pack1.png">
+                <span class="card-title black-text">Hardcore supporter pack</span>
+                <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+              </div>
+              <div class="card-content">
+                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col s6">
-          <div class="card large">
-            <div class="card-image">
-              <img src="img/bagfinal.png">
-              <span class="card-title black-text">Tote bag</span>
-            </div>
-            <div class="card-content">
-              <p>Contains a T-shirt, a mug and a tote bag</p>
-            </div>
-            <div class="card-action">
-              <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Buy now!</a>
+          <div class="col s6">
+            <div class="card right-align" id="card2">
+              <div class="card-image">
+                <img src="img/pack2.png">
+                <span class="card-title black-text">Supporter pack</span>
+                <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+              </div>
+              <div class="card-content">
+                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-      </div>
       
     <footer class="page-footer">
       <div class="row">
@@ -250,9 +285,13 @@ $(document).ready(function(){
 });</script>
 
 
+<script>$(document).ready(function(){
+  $('.slider').slider();
+});</script>
 
-
-
+<script>$(document).ready(function(){
+  $('.tabs').tabs();
+});</script>
 
 
 
