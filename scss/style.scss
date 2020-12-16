@@ -7,7 +7,7 @@ $primaryColor:#f3b41b;
 $secondaryColor: #25266B;
 $shadowColor:#c99208;
 $thirdbaseColor:#333;
-$gradientColor:linear-gradient( rgb(0, 0, 0), rgba(0, 22, 37, 0.85) );
+
 
 .sub-buttom {
   background-color:$primaryColor;
@@ -95,7 +95,7 @@ main {
 .section{
   margin-top: 10px;
 .section-follow{
-  background: $gradientColor );
+  background: $gradientColor;
   margin-top: 30px;
   ;
 }
@@ -445,57 +445,6 @@ i#prev {
   padding-top: 80px;
 }
 
-//media 
-@media only screen and (max-width: 600px) {
-    #progress-bar-container ul {
-    padding:0 0 0 90px;
-    margin:0;
-    right: 9%;
-    padding-top:15px;
-    z-index:9999;
-    position:absolute;
-    width:100%;
-    margin-top:-40px
+
 }
-    #progress-bar-container #line {
-    width:20%;
-    margin:auto;
-    /*color for line */
-    height:6px;
-    position:absolute;
-    left:18%;
-    top:57px;
-    z-index:1;
-    border-radius:50px;
-    transition:all ease 0.9s;
-  }
-    h3{
-    font-size: 40px;
-   padding-top: 50px;
-  }
-    #progress-bar-container #line-progress {
-    content:" ";
-    width:12%;
-    height:100%;
-    background: #f3b41b;	 
-   
-    position:absolute;
-    z-index:2;
-    border-radius:50px;
-    transition:all ease 0.9s;
-  }
- 
-@media only screen and (max-width: 1114px) {
-  #progress-bar-container #line {
-    width:55%;
-    margin:auto;
-    background: #eee; 
-    height:6px;
-    position:absolute;
-    left:18%;
-    top:57px;
-    z-index:1;
-    border-radius:50px;
-    transition:all ease 0.9s;
-  }
-}
+
