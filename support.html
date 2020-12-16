@@ -31,6 +31,17 @@
         padding: 0;
         margin: 0;
       }
+
+      #card3 {
+        min-height: 1442px;
+        max-width: 900px;
+        padding: 0;
+        margin: 0
+      }
+
+      #card3 img{
+        min-height: 1350px;
+      }
     </style>
   </head>
 </head>
@@ -164,7 +175,7 @@
       <div id="test-swipe-3" class="col s12 white black-text">
         <div class="row">
           <div class="col s6">
-            <div class="card left-align" id="card1">
+            <div class="card left-align" id="card3">
               <div class="card-image">
                 <img src="img/posterfinal.png">
                 <span class="card-title black-text">Poster</span>
@@ -287,7 +298,9 @@ $(document).ready(function(){
 
 
 <script>$(document).ready(function(){
-  $('.slider').slider();
+  $('.slider').slider({
+    indicators: false,
+  });
 });</script>
 
 <script>$(document).ready(function(){
