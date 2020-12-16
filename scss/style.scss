@@ -15,9 +15,11 @@ body {
   flex-direction: column;
   margin: 0;
   padding: 0;
+  
 }
 /**** Typography ****/
 h1, h2, h3, h4, h5
+
 
 h1 {
   font-size: 26px;
@@ -226,8 +228,9 @@ main {
   padding: 30px 40px;
   text-align: center;
 }
-#progress-content-section .section-content h2 {
-  font-size: 17px;
+#progress-content-section .section-content h3 {
+  padding-top: 35px;
+  font-size: 35px;
   text-transform: uppercase;
   color: #333;
   letter-spacing: 1px;
@@ -390,7 +393,14 @@ i#prev {
     border-radius: 50px;
     -webkit-transition: all ease 0.9s;
     transition: all ease 0.9s;
-  }
+}
+  #progress-content-section .section-content h3 {
+  margin-top: -4px;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: black;
+  letter-spacing: 1px;
+}
   h5{
     font-size: 40px;
     color: white;
@@ -400,4 +410,10 @@ i#prev {
   h6{
     font-size: 25px;
   }
+  #progress-content-section {
+    width: 60%;
+    height: 320px;
+    margin: auto;
+  }
+  
 }
