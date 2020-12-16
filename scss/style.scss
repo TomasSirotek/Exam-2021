@@ -2,6 +2,19 @@
 *{
   font-family: "Montserrat",sans-serif;
 }
+
+$primaryColor:#f3b41b;
+$secondaryColor: #25266B;
+$shadowColor:#c99208;
+$thirdbaseColor:#333;
+$gradientColor:linear-gradient( rgb(0, 0, 0), rgba(0, 22, 37, 0.85) );
+
+.sub-buttom {
+  background-color:$primaryColor;
+  &:hover{
+    background-color: $shadowColor;
+  }
+}
 body {
     display: flex;
     min-height: 100vh;
@@ -9,20 +22,26 @@ body {
     margin: 0;
     padding: 0;
 }
-              //All header text
-
-h2{
-  text-transform: uppercase;
+.btn-large{
+  background-color: $primaryColor;
+  &:hover {
+    background-color: $shadowColor;
+  }
 }
+
+              /**** Typography ****/
+h1, h2, h3, h4, h5
+
 h1{
   font-size: 40px;
-	color:#333;
+	color:$thirdbaseColor;
 	margin-top:80px;	 
 	text-align:center;
 	text-transform:uppercase;
 	letter-spacing:4px;
 }
 h2{
+  text-transform: uppercase;
   margin-top: 20px;
 }
 h3{
@@ -40,20 +59,14 @@ main {
 }
 //podcast date
 .date{
-  color: #25266B;
+  color: $secondaryColor;
 }
 //button for email submit
-.sub-buttom {
-  background-color:#f3b41b;
-}
 
-.sub-buttom:hover {
-  background-color: #c99208;
-}
+
+
 //button land
-.btn-large:hover {
-  background-color: #c99208;
-}
+
 // whole sumbut
 
 //buttons under text main landing
@@ -79,13 +92,14 @@ main {
   }
 
 //follow us section
+.section{
+  margin-top: 10px;
 .section-follow{
-  background: linear-gradient( rgb(0, 0, 0), rgba(0, 22, 37, 0.85) );
+  background: $gradientColor );
   margin-top: 30px;
   ;
 }
-.section{
-margin-top: 10px;
+
 //page footer
 .page-footer{
   background: linear-gradient(black, rgba(0, 22, 37, 0.85));
@@ -99,7 +113,7 @@ margin-top: 10px;
   flex-direction: row;
   transform: translate(35%,-150%);
 }
-}
+
 //blog-body Podcast
 .small-text{
   padding-top: 20px;
@@ -485,10 +499,3 @@ i#prev {
     transition:all ease 0.9s;
   }
 }
-
-
-
-  
-
-
-
