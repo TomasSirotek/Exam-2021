@@ -370,6 +370,10 @@ i#prev {
   padding-left: 55px;
 }
 
+.pinned .active {
+  font-size: 20px;
+}
+
 .column {
   float: left;
   width: 50%;
@@ -415,10 +419,6 @@ i#prev {
 
 .page-footer .fa-2x {
   margin: 3px;
-}
-
-.ahoj {
-  color: black;
 }
 
 @media only screen and (max-width: 600px) {
