@@ -100,6 +100,7 @@ h2 {
 .after-video {
   width: 67%;
   margin: auto;
+  padding-top: 20px;
   font-size: 16px;
 }
 
@@ -567,6 +568,47 @@ i#prev {
 
 .start-text-index {
   font-size: 30px;
+}
+
+/* pinned menu*/
+.pinned {
+  padding-left: 55px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column-name p {
+  font-weight: bold;
+}
+
+/* map google */
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.video-our {
+  padding-top: 80px;
 }
 
 @media only screen and (max-width: 600px) {
