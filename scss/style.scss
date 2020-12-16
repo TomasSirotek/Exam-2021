@@ -309,6 +309,9 @@ i#prev {
 }
 .pinned {
   padding-left: 55px;
+  .active{
+    font-size: 20px;
+  }
 }
 .column {
   float: left;
@@ -348,10 +351,7 @@ i#prev {
     margin: 3px;
   }
 }
-.ahoj{
-  color: black;
-  
-}
+
 
 
 

@@ -5,10 +5,13 @@ Materializecss.com
 
 -------------------
 
-Personal Use License
+Open Use License
 
-All themes are under the Personal Use License meaning you can use and modify these themes for personal and client projects. You cannot redistribute or resell these themes in any way.
+Our Hubmle 2020 Exam project posted here on GitHub.
+Hope you will like it 
+It was fun !
 
 -------------------
 
-Thank you for your attention
+Thank you for your attention!
+A-team
