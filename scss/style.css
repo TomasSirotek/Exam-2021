@@ -33,16 +33,27 @@ h2 {
 }
 
 h3 {
-  font-size: 50px;
+  font-size: 40px;
   color: white;
   text-transform: uppercase;
 }
 
 h4 {
-  font-size: 50px;
+  font-size: 30px;
   color: white;
   padding-top: 60px;
   text-transform: uppercase;
+}
+
+h5 {
+  font-size: 50px;
+  color: white;
+  padding-top: 70px;
+  text-transform: uppercase;
+}
+
+h6 {
+  font-size: 25px;
 }
 
 main {
@@ -433,7 +444,7 @@ i#prev {
     margin-top: -40px;
   }
   h4 {
-    font-size: 50px;
+    font-size: 30px;
     padding-top: 0px;
   }
   #progress-bar-container #line-progress {
@@ -446,6 +457,15 @@ i#prev {
     border-radius: 50px;
     -webkit-transition: all ease 0.9s;
     transition: all ease 0.9s;
+  }
+  h5 {
+    font-size: 40px;
+    color: white;
+    padding-top: 50px;
+    text-transform: uppercase;
+  }
+  h6 {
+    font-size: 25px;
   }
 }
 /*# sourceMappingURL=style.css.map */
