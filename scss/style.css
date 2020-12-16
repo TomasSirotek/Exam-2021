@@ -433,6 +433,16 @@ i#prev {
   margin: 3px;
 }
 
+.page-footer h5 {
+  margin-top: -50px;
+  font-size: 30px;
+}
+
+.page-footer .move {
+  padding-top: 10px;
+  font-size: 25px;
+}
+
 @media only screen and (max-width: 600px) {
   #progress-bar-container ul {
     padding: 0 0 0 90px;
