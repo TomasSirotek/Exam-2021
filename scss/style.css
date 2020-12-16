@@ -17,6 +17,66 @@ body {
   padding: 0;
 }
 
+body .navbar-fixed img {
+  padding-top: 6px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+body main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
+
+body .date {
+  color: #25266B;
+}
+
+body .sub-buttom {
+  background-color: #f3b41b;
+}
+
+body .sub-buttom:hover {
+  background-color: #c99208;
+}
+
+body .btn-large {
+  margin-top: 70px;
+  width: 200px;
+  height: 50px;
+  background: #f3b41b;
+}
+
+body .btn-large:hover {
+  background-color: #c99208;
+}
+
+body .section-follow {
+  background: -webkit-gradient(linear, left top, left bottom, from(black), to(rgba(0, 22, 37, 0.85)));
+  background: linear-gradient(black, rgba(0, 22, 37, 0.85));
+  margin-top: 30px;
+}
+
+body .section-follow .material-icons {
+  margin: 5px 10px;
+}
+
+body .section-follow .fa-5x {
+  margin: 30px;
+}
+
+body .after-video {
+  width: 67%;
+  margin: auto;
+  padding-top: 20px;
+  font-size: 16px;
+}
+
+body .gallery-ship {
+  margin: 50px 0 20px 0;
+}
+
 /**** Typography ****/
 h1, h2, h3, h4, h5
 h1 {
@@ -56,69 +116,6 @@ h6 {
   font-size: 25px;
 }
 
-main {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 0 auto;
-          flex: 1 0 auto;
-}
-
-.navbar-fixed img {
-  padding-top: 6px;
-  padding-left: 10px;
-  padding-bottom: 5px;
-}
-
-/**** date for podcast****/
-.date {
-  color: #25266B;
-}
-
-.sub-buttom {
-  background-color: #f3b41b;
-}
-
-.sub-buttom:hover {
-  background-color: #c99208;
-}
-
-/**** land buttom****/
-.btn-large {
-  margin-top: 70px;
-  width: 200px;
-  height: 50px;
-  background: #f3b41b;
-}
-
-.btn-large:hover {
-  background-color: #c99208;
-}
-
-.section-follow {
-  background: -webkit-gradient(linear, left top, left bottom, from(black), to(rgba(0, 22, 37, 0.85)));
-  background: linear-gradient(black, rgba(0, 22, 37, 0.85));
-  margin-top: 30px;
-}
-
-.section-follow .material-icons {
-  margin: 5px 10px;
-}
-
-.section-follow .fa-5x {
-  margin: 30px;
-}
-
-.after-video {
-  width: 67%;
-  margin: auto;
-  padding-top: 20px;
-  font-size: 16px;
-}
-
-.gallery-ship {
-  margin: 50px 0 20px 0;
-}
-
-/****podcast small top text****/
 /****stepper****/
 #progress-content-section {
   width: 60%;
@@ -458,6 +455,15 @@ i#prev {
     font-size: 30px;
     padding-top: 0px;
   }
+  h5 {
+    font-size: 40px;
+    color: white;
+    padding-top: 50px;
+    text-transform: uppercase;
+  }
+  h6 {
+    font-size: 25px;
+  }
   #progress-bar-container #line-progress {
     content: " ";
     width: 12%;
@@ -476,19 +482,13 @@ i#prev {
     color: black;
     letter-spacing: 1px;
   }
-  h5 {
-    font-size: 40px;
-    color: white;
-    padding-top: 50px;
-    text-transform: uppercase;
-  }
-  h6 {
-    font-size: 25px;
-  }
   #progress-content-section {
     width: 60%;
     height: 320px;
     margin: auto;
+  }
+  .video-our iframe {
+    width: 90%;
   }
 }
 /*# sourceMappingURL=style.css.map */

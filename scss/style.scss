@@ -15,11 +15,54 @@ body {
   flex-direction: column;
   margin: 0;
   padding: 0;
-  
+  .navbar-fixed img {
+    padding-top: 6px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+  }
+  main {
+    flex: 1 0 auto;
+  } 
+  .date {
+    color: $secondaryColor;
+  }
+  .sub-buttom {
+    background-color: #f3b41b;
+    &:hover {
+      background-color: #c99208;
+    }
+  }
+  .btn-large {
+    margin-top: 70px;
+    width: 200px;
+    height: 50px;
+    background: $primaryColor;
+    &:hover {
+      background-color: #c99208;
+    }
+  }
+  .section-follow {
+    background: $gradientColor;
+    margin-top: 30px;
+    .material-icons {
+      margin: 5px 10px;
+    }
+    .fa-5x {
+      margin: 30px;
+    }
+  }
+  .after-video {
+    width: 67%;
+    margin: auto;
+    padding-top: 20px;
+    font-size: 16px;
+  }
+  .gallery-ship {
+    margin: 50px 0 20px 0;
+  }
 }
 /**** Typography ****/
 h1, h2, h3, h4, h5
-
 
 h1 {
   font-size: 26px;
@@ -53,63 +96,6 @@ h5{
 h6{
   font-size: 25px;
 }
-
-main {
-  flex: 1 0 auto;
-}
-.navbar-fixed img {
-  padding-top: 6px;
-  padding-left: 10px;
-  padding-bottom: 5px;
-}
-
-
-
-
-/**** date for podcast****/
-.date {
-  color: $secondaryColor;
-}
-
-.sub-buttom {
-  background-color: #f3b41b;
-  &:hover {
-    background-color: #c99208;
-  }
-}
-/**** land buttom****/
-.btn-large {
-  margin-top: 70px;
-  width: 200px;
-  height: 50px;
-  background: $primaryColor;
-  &:hover {
-    background-color: #c99208;
-  }
-}
-
-.section-follow {
-  background: $gradientColor;
-  margin-top: 30px;
-  .material-icons {
-    margin: 5px 10px;
-  }
-  .fa-5x {
-    margin: 30px;
-  }
-}
-.after-video {
-  width: 67%;
-  margin: auto;
-  padding-top: 20px;
-  font-size: 16px;
-}
-
-.gallery-ship {
-  margin: 50px 0 20px 0;
-}
-/****podcast small top text****/
-
 /****stepper****/
 #progress-content-section {
   width: 60%;
@@ -168,14 +154,12 @@ main {
   height: 60px;
   position: relative;
 }
-
 #progress-bar-container li .step-inner {
   position: absolute;
   width: 100%;
   bottom: 0;
   font-size: 14px;
 }
-
 #progress-bar-container li.active, #progress-bar-container li:hover {
   color: #444;
 }
@@ -374,9 +358,6 @@ i#prev {
   
 }
 
-
-
-
 @media only screen and (max-width: 600px) {
   #progress-bar-container ul {
     padding: 0 0 0 90px;
@@ -391,6 +372,15 @@ i#prev {
   h4 {
     font-size: 30px;
     padding-top: 0px;
+  }
+  h5{
+    font-size: 40px;
+    color: white;
+    padding-top: 50px;
+    text-transform: uppercase;
+  }
+  h6{
+    font-size: 25px;
   }
   #progress-bar-container #line-progress {
     content: " ";
@@ -410,19 +400,12 @@ i#prev {
   color: black;
   letter-spacing: 1px;
 }
-  h5{
-    font-size: 40px;
-    color: white;
-    padding-top: 50px;
-    text-transform: uppercase;
-  }
-  h6{
-    font-size: 25px;
-  }
   #progress-content-section {
-    width: 60%;
-    height: 320px;
-    margin: auto;
-  }
-  
+  width: 60%;
+  height: 320px;
+  margin: auto;
+}
+.video-our iframe{
+  width: 90%;
+}
 }
