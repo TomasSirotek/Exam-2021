@@ -20,11 +20,9 @@ body {
 /**** Typography ****/
 h1, h2, h3, h4, h5
 h1 {
-  font-size: 20px;
+  font-size: 26px;
   color: #333;
-  margin-top: 60px;
   text-align: center;
-  text-transform: uppercase;
   letter-spacing: 4px;
 }
 
@@ -37,6 +35,14 @@ h2 {
 h3 {
   font-size: 50px;
   color: white;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 50px;
+  color: white;
+  padding-top: 60px;
+  text-transform: uppercase;
 }
 
 main {
@@ -426,9 +432,9 @@ i#prev {
     width: 100%;
     margin-top: -40px;
   }
-  h3 {
-    font-size: 40px;
-    padding-top: 50px;
+  h4 {
+    font-size: 50px;
+    padding-top: 0px;
   }
   #progress-bar-container #line-progress {
     content: " ";
