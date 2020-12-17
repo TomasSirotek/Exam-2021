@@ -1,13 +1,15 @@
 # Exam-2021
 Seaware foundation
 Made by A-team
+
+All made with help of 
 Materializecss.com
 
 -------------------
 
-Open Use License
+Exam Privacy License
 
-Our Hubmle 2020 Exam project posted here on GitHub.
+Our Humble 2020 Exam project posted here on GitHub.
 Hope you will like it 
 It was fun !
 
@@ -15,3 +17,4 @@ It was fun !
 
 Thank you for your attention!
 A-team
+
