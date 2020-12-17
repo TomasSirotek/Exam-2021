@@ -96,6 +96,7 @@ h5{
 h6{
   font-size: 25px;
 }
+
 /****stepper****/
 #progress-content-section {
   width: 60%;
@@ -131,8 +132,8 @@ h6{
   height: 30px;
   border-radius: 50%;
   border: solid 2px #aaa;
-  -webkit-transition: all ease 0.3s;
   transition: all ease 0.3s;
+  
 }
 #progress-bar-container li.active:before, #progress-bar-container li:hover:before {
   border: solid 2px #fff;
@@ -355,15 +356,6 @@ i#prev {
     padding-top: 10px;
     font-size: 25px;
   }
-  
-}
-
-.navbar-fixed{
-  background-color:#990000;
-  position:absolute;  
-  z-index:1; /*Add this*/
-  width:100%;
-  height:50px;
   
 }
 @media only screen and (max-width: 600px) {
