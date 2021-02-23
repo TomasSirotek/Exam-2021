@@ -19,7 +19,7 @@ It was fun !
 -------------------
 
 Thank you for your attention!
-A-team
+TTT
 
 <img width="1264" alt="Screenshot 2021-02-23 at 01 38 10" src="https://user-images.githubusercontent.com/72190589/108788674-ce252c00-7578-11eb-942e-0b6d0d18ae78.png">
 
